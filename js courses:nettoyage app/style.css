@@ -1,0 +1,137 @@
+.indexBody{
+    color: #fff;
+
+}
+.indexSection{
+    text-align: center;
+    border-radius: 30px;
+width: 50%;
+border: solid rgb(117, 216, 219) 4px;
+padding: 5px;
+padding-bottom: 2%;
+margin-top: 5%;
+margin-left: 23%;
+background: rgb(117, 216, 219);
+}
+.zoneProposition{
+    border-radius: 30px;
+    border: solid whitesmoke 5px;
+    margin-left: 13%;
+    height: 70px;
+    width: 500px;
+    background-color: #fff;
+    color: rgb(32, 76, 78);
+    font-size: 30px;
+}
+
+.indexSection input{
+  
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.inputDeSaisie{
+    height: 25px;
+    width: 400px;
+    border-radius: 10px;
+    
+  
+}
+button.btnindex{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: solid rgb(32, 132, 136);
+    color: rgb(11, 66, 68);
+    
+}
+button.btnindex:hover{
+    background: rgb(32, 132, 136);
+    color: #fff;
+
+}
+footer{
+   
+    text-align: center;
+    height: 155px;
+ 
+    background: rgb(117, 216, 219);
+
+}
+
+/*****************************************************************************
+*            ShareScore popup
+******************************************************************************/
+.shareSection{
+    border-radius: 50px;
+    border: solid rgb(252, 89, 89);
+    width: 30%;
+    height: 450px;
+    margin: 2%;
+    margin-left: 33%;
+    background: rgb(252, 89, 89);
+    color: white;
+    
+}
+.btnshare{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: solid rgb(252, 89, 89);
+    color: rgb(199, 66, 66);
+    font-weight: bold;
+    font-size: 15px;
+}
+.btnshare:hover{
+    background: rgb(194, 23, 23);
+    color: #fff;
+}
+.btnshare:focus{
+    background: rgb(194, 23, 23);
+    border: 3px solid rgb(194, 23, 23);
+}
+.shareSection input{
+    border-radius: 10px;
+    border: #fff;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(252, 89, 89);
+  
+}
+.shareSection input:hover{
+    color: black;
+}
+/*********************************************************************************
+*   popup design
+*
+*********************************************************************************/
+
+.popupBackground{
+    border-radius: 50px;
+    border: solid rgb(252, 89, 89);
+    width: 30%;
+    height: 450px;
+    margin: 2%;
+    margin-left: 33%;
+    background: rgb(252, 89, 89);
+    color: white;
+    
+}
+.popupBackground input{
+    border-radius: 10px;
+    border: #fff;
+    height: 30px;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(39, 39, 39);
+
+}
+input[type='email']::placeholder,
+input[type='text']::placeholder {
+    color: rgb(252, 89, 89);
+    opacity: 50%;
+}
